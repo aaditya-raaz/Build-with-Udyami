@@ -1,0 +1,50 @@
+
+
+
+html{
+    background-color: rgb(151, 206, 242);
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+button{
+    padding: 8px 30px;
+    font-size: 15px;
+    
+}
+
+.hero-button{
+    gap: 10px;
+    margin-top: 100px;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(9,40px);
+    grid-template-rows: repeat(9.40px);
+    margin: 30px auto;    
+
+}
+.cell{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid black;
+    
+}
+
+.given{
+    font-weight: bold;
+    background-color: rgb(247, 165, 226)
+}
+
+.invalid{
+    color: red;
+    
+}
