@@ -83,7 +83,7 @@ section {
 
 .hero-content h3{
     font-size: 25px;
-    /*color: rgb(244, 139, 139);*/
+    color: rgb(94, 132, 245);
     margin-bottom: 10px;
 }
 
@@ -105,4 +105,21 @@ section {
 .about-section{
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.btn{
+    padding: 12px 25px;
+    border: 10px;
+    border-radius: var(--border-radius-sm);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+    text-align: center;
+}
+
+.btn.primary{
+    background: var(--primary-color);
+    color:#fff
 }
